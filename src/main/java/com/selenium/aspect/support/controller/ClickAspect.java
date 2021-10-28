@@ -8,7 +8,7 @@ import org.aspectj.lang.annotation.Pointcut;
 @Aspect
 public class ClickAspect {
 
-    @Pointcut("@annotation(com.selenium.aspect.support.annotation.Click)")
+    @Pointcut("@annotation(com.selenium.aspect.support.annotation.Click) && execution(* *(..))")
     public void clickAnn() {}
 
     @Around("clickAnn()")

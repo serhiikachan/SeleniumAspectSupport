@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aspectj>
-    <aspects>
-        <aspect name="com.selenium.aspect.support.controller.ClickAspect"/>
-    </aspects>
-</aspectj>
